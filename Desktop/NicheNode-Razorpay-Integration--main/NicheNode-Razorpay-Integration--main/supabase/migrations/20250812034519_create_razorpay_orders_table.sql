@@ -1,0 +1,8 @@
+CREATE TABLE razorpay_orders (
+  id BIGINT PRIMARY KEY GENERATED ALWAYS AS IDENTITY,
+  razorpay_order_id TEXT NOT NULL,
+  amount INTEGER NOT NULL,
+  currency TEXT NOT NULL,
+  status TEXT NOT NULL DEFAULT 'created',
+  created_at TIMESTAMPTZ NOT NULL DEFAULT NOW()
+);
