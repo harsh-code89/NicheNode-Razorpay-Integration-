@@ -17,6 +17,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "ethers": "^6.8.0",
+    "expo": "^53.0.20",
     "lucide-react": "^0.344.0",
     "razorpay": "^2.9.6",
     "react": "^18.3.1",
