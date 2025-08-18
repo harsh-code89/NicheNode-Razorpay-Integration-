@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import React, { useState, useEffect } from 'react';
 import { User, Briefcase, MessageSquare, Star, Settings, Plus, Search, Wallet, TrendingUp, AlertCircle, Zap, Users, Award, BarChart3, FileText, HelpCircle } from 'lucide-react';
 import { useAuth } from '../hooks/useAuth';
 import { supabase } from '../lib/supabase';
@@ -408,8 +407,6 @@ export function UserDashboard({ onNavigate }: UserDashboardProps) {
       </div>
     );
   }
-
-  const profileCompletion = calculateProfileCompletion();
 
   const profileCompletion = calculateProfileCompletion();
 
