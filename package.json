@@ -25,7 +25,7 @@
     "react-dom": "^18.3.1",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
-    "metro": "^0.83.1"
+    "metro": "0.80.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.1",
